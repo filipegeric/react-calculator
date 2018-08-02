@@ -24,4 +24,5 @@ body, html, #root {
   color: black !important;
   outline: 1px solid grey !important;
   z-index: 3;
+  cursor: default;
 }
