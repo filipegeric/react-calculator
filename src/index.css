@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+@font-face{
+  font-family: 'digital';
+  src: url('./assets//digital-7.ttf');
+ }
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 500;
+  height: 100%;
+  background-color: #c2c2d6;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  color: black !important;
+  outline: 1px solid grey !important;
+  z-index: 3;
+}
